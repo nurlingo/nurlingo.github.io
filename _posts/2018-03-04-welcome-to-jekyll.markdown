@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Салам Рус! Можешь уже делать визитки"
 date:   2018-03-04 15:21:48 +0600
 categories: jekyll update
 ---

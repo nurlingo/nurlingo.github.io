@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Свяжитесь с нами
 permalink: /about/
 ---
 

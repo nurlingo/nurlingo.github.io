@@ -18,7 +18,8 @@ email: bezopas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Проект Безопасные окна для детей в каждый дом.
   Мы представляем комплекс решений для повышения безопасности вашего дома.
-  Решетки для окон, чтобы дети не выпадали. Замки пиночеты. Дизайн на выбор
+  Решетки для окон, чтобы дети не выпадали. Замки пиночеты. Дизайн на выбор.
+  Установка за 15 минут без шума и пыли.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bezopas.kz

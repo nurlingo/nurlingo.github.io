@@ -1,15 +1,15 @@
 $(document).ready(function () {
-    
+
     $(".form-element").submit(function () {
 
         var formID = $(this).attr('id');
         var formNm = $('#' + formID);
-        
+
         var message = $(formNm).find(".form-message");
         var formTitle = $(formNm).find(".form-title");
 
-        var token = "309839318:AAEkELQeIhTNnAJHn_gX1gzxB-J_w2rPC4Q";
-        var chat_id = "-275778983";
+        var token = "567654300:AAEbiO3kpQ_vMC1E-YqjSX8OtnsE8BWASLI";
+        var chat_id = "-294056907";
 
         var test = $('#name').val();
         var name = $('#name').val();

@@ -25,7 +25,7 @@
 <!-- header top section -->
 <section class="banner" role="banner">
   <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="index.html"><img width="100" src="images/logo.png" alt=""></a>
+    <div class="header-content clearfix"> <a class="logo" href="index.html"><img width="150" src="images/logo.png" alt=""></a>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
           <li>+7 778 254 8832</li>
@@ -98,6 +98,15 @@
               <small id="emailHelp" class="form-text text-muted">We'll never share your contacts with anyone else.</small>
             </div> -->
             <button type="submit" class="btn btn-default">Отправить</button>
+          </form>
+
+          <form id="form-contact" method="POST" class="form-element" autocomplete="off">
+            <p class="form-title">Закажите обратный звонок и наш консультант свяжется с вами</p>
+            <p class="form-message"></p>
+              <input name="name" type="text" class="form-input__name" tabindex="0" placeholder="Введите ваше имя" required>
+              <input name="phone" type="tel" class="form-input__phone" tabindex="0" pattern="^[ 0-9]+$" placeholder="Введите ваш телефон" required>
+              <input name="theme" type="hidden" class="form-input__theme"  value="Заявка с сайта">
+              <input type="submit" class="form-input__button" value="Отправить">
           </form>
 
         </div>

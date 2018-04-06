@@ -361,6 +361,11 @@ hr {
 /*************************
 *******services******
 **************************/
+
+#telegram-form {
+	padding-top:90px;
+}
+
 #gallery {
 	padding-top:70px;
 	padding-bottom:70px;
@@ -368,7 +373,7 @@ hr {
 }
 #gallery img {
 	border-radius:8px;
-  padding-bottom: : 5px;
+  padding-bottom: 5px;
 }
 
 .gallery {

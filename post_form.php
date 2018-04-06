@@ -20,18 +20,29 @@ if (isset($_POST['phone'])) {
   $phoneFieldset = "Телефон: ";
   }
 }
-if (isset($_POST['theme'])) {
-  if (!empty($_POST['theme'])){
-  $theme = strip_tags($_POST['theme']);
-  $themeFieldset = "Тема: ";
+
+if (!empty($_POST['name2']) && !empty($_POST['phone2'])){
+  if (isset($_POST['name2'])) {
+    if (!empty($_POST['name2'])){
+  $name = strip_tags($_POST['name2']);
+  $nameFieldset = "Имя пославшего2: ";
   }
 }
+
+if (isset($_POST['phone2'])) {
+  if (!empty($_POST['phone2'])){
+  $phone = strip_tags($_POST['phone2']);
+  $phoneFieldset = "Телефон2: ";
+  }
+}
+
 $token = "567654300:AAEbiO3kpQ_vMC1E-YqjSX8OtnsE8BWASLI";
 $chat_id = "-294056907";
 $arr = array(
   $nameFieldset => $name,
   $phoneFieldset => $phone,
-  $themeFieldset => $theme
+  $nameFieldset2 => $name2,
+  $phoneFieldset2 => $phone2
 );
 foreach($arr as $key => $value) {
   $txt .= "<b>".$key."</b> ".$value."%0A";

@@ -11,12 +11,14 @@ $(document).ready(function () {
         var token = "567654300:AAEbiO3kpQ_vMC1E-YqjSX8OtnsE8BWASLI";
         var chat_id = "-294056907";
 
-        var test = $('#name').val();
         var name = $('#name').val();
         var phone = $('#phone').val();
-        var message = $('#message').val();
 
-        var postMessage = "Name: " + name + "%0APhone: " + phone + "%0AMessage: " + message;
+        var name2 = $('#name2').val();
+        var phone2 = $('#phone2').val();
+
+
+        var postMessage = "Name: " + name + "%0APhone: " + phone + "%0AName2: " + name2 + "%0APhone2: " + phone2;
 
         // alert(postMessage);
 
@@ -26,7 +28,7 @@ $(document).ready(function () {
             data: formNm.serialize(),
             success: function (data) {
               // Вывод сообщения об успешной отправке
-              alert("Success!");
+              alert("Заявка успешно выслана!");
               message.html(data);
               formTitle.css("display","none");
               setTimeout(function(){

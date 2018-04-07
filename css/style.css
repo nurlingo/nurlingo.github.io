@@ -304,7 +304,7 @@ hr {
 *******feature******
 **************************/
 #feature {
-	padding-top:90px;
+	padding-top:40px;
 	background:#fff;
 	padding-bottom:50px;
 }
@@ -363,7 +363,7 @@ hr {
 **************************/
 
 #telegram-form {
-	padding-top:90px;
+	padding-top:30px;
 }
 
 #gallery {
@@ -457,7 +457,7 @@ figure.effect-chico:hover img {
 *******pricing******
 **************************/
 #pricing {
-	padding-top:90px;
+	padding-top:30px;
 	background:#fff;
 	padding-bottom:40px;
 }
